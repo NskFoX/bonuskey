@@ -1,0 +1,137 @@
+/*
+*
+* Стилизация элементов скрипта бонус-кодов от FoX.
+*
+* Авторство данного скрипта принадлежит FoX`у, страница ВК - vk.com/nskfox
+* Дизайн скрипта Dan_Romanenkov, страница ВК - vk.com/id22819551
+* Если Вы не является раком, то пожалуйста используйте данный скрипт только в предназначенных ему целях
+* Воровство и выдавание данного скрипта за свою работу карается боженькой всевышним.
+* Копирайт от 2015 года.
+*
+*/
+
+
+
+/* Дополнительные стили */
+.center {text-align: center;}
+
+.block {font-family: Arial;}
+.block-head {padding: 16px; background: #f8f8f8; font-size: 16px; line-height: 31px;}
+.block-head-text {padding: 6px 8px; margin-left: 125px; line-height: 19px; font-size: 16px;}
+.block-head a {overflow: hidden; text-decoration: underline; text-transform: uppercase; color: #444444;}
+.block-head a:hover{text-decoration: none;}
+.block-body {background: #ffffff; padding: 24px; color: #444444;}
+
+/* Основные стили - Админ-панель */
+.fox-bonus-adm-block-select {
+	border: 1px solid #dddddd; 
+	padding: 10px; 
+	margin: 0px 0px 10px 0px; 
+	outline: none; 
+	width: 500px; 
+	border-radius: 3px;
+}
+.fox-bonus-adm-block-tf {
+	border: 1px solid #dddddd; 
+	padding: 10px; 
+	margin: 0px 0px 10px 0px; 
+	outline: none; 
+	width: 500px; 
+	border-radius: 3px; 
+	transition: all ease 0.3s;
+}
+.fox-bonus-adm-block-tf:hover, .fox-bonus-adm-block-tf:focus {
+	border: 1px solid #febf19; 
+	background: #fff9db;
+}
+.fox-bonus-adm-block-bt {
+	color: #8C7129; 
+	padding: 10px; 
+	margin: 0px 0px 10px 0px; 
+	outline: none; 
+	width: 500px; 
+	border-radius: 3px; 
+	transition: all ease 0.3s; 
+	border: 1px solid #d6a012; 
+	background: #febf19;
+}
+.fox-bonus-adm-block-bt:hover {
+	background: #fec631;
+}
+.fox-bonus-adm-block-delete-bt {
+	color: #8b3333; 
+	padding: 10px; 
+	margin: 0px 0px 10px 0px; 
+	outline: none; 
+	width: 500px; 
+	border-radius: 3px; 
+	transition: all ease 0.3s; 
+	border: 1px solid #d61212; 
+	background: #fe7019;
+}
+.fox-bonus-adm-block-delete-bt:hover {
+	background: #fc8136;
+}
+.fox-bonus-adm-block-menu-bt {
+	color: #444444 !important; 
+	padding: 10px; 
+	margin: 0px 0px 10px 0px; 
+	outline: none; 
+	width: 500px; 
+	border-radius: 3px; 
+	transition: all ease 0.3s; 
+	border: 1px solid #ededed; 
+	background: #f6f6f6;
+	display: inline-block;
+}
+.fox-bonus-adm-block-menu-bt:hover {
+	background: #f2f2f2;
+	color: #444444 !important;
+}
+.fox-bonus-separator {
+	border-top: 1px solid #dddddd; 
+	height: 1px; 
+	margin: 0px 0px 10px 0px;
+}
+.fox-bonus-adm-block-info {
+	border: 1px solid #5187b8; 
+	border-radius: 3px; 
+	padding: 10px; 
+	background: #bde5f8; 
+	margin: 0px 0px 10px 0px;
+}
+/* Основные стили - Страница активации бонус-кодов */
+.fox-bonus-block-info {
+	border: 1px solid #5187b8; 
+	border-radius: 3px; 
+	padding: 10px; 
+	background: #bde5f8; 
+	margin: 0px 0px 10px 0px;
+}
+.fox-bonus-block-tf {
+	border: 1px solid #dddddd; 
+	padding: 10px; 
+	margin: 0px 0px 10px 0px; 
+	outline: none; 
+	width: 500px; 
+	border-radius: 3px; 
+	transition: all ease 0.3s;
+}
+.fox-bonus-block-tf:hover, .fox-bonus-block-tf:focus {
+	border: 1px solid #febf19; 
+	background: #fff9db;
+}
+.fox-bonus-block-bt {
+	color: #8C7129; 
+	padding: 10px; 
+	margin: 0px 0px 10px 0px; 
+	outline: none; 
+	width: 500px; 
+	border-radius: 3px; 
+	transition: all ease 0.3s; 
+	border: 1px solid #d6a012; 
+	background: #febf19;
+}
+.fox-bonus-block-bt:hover {
+	background: #fec631;
+}

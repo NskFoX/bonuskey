@@ -1,0 +1,26 @@
+1) Папку engine поместить в каталог сайта.
+2) Зайдите в папку с шаблоном сайта, поместите туда папки(bonuskey & style) из папки templates.
+3) В шаблоне меню сайта найдите:
+		<head>
+	Вствьте ПОСЛЕ:
+		<link type="text/css" href="{THEME}/style/bonus.css" rel="stylesheet" />
+4) Перейдите в папку engine(ваш сайт) и откройте файл engine.php
+	Найдите:
+		case "search" :
+	Вставьте ПЕРЕД этим:
+		case "bonuskey" :
+		include ENGINE_DIR . '/modules/bonuskey/index.php';
+		break;
+	
+	case "bonuskeyadmin" :
+		include ENGINE_DIR . '/modules/bonuskey/admin.php';
+		break;
+5) Перейдите по адресу /engine/modules/bonuskey и откройте файл config.php и настройте его под себя.
+6) Сделайте импорт таблиц (BD.sql) в БД сайта.
+
+Если вы всё сделали правильно, то скрипт будет работать
+ваш_сайт/?do=bonuskey  - страница ввода кода
+ваш_сайт/?do=bonuskeyadmin  - Админ панель(добавление/удаление кодов и серверов(для статусов и предметов)), доступна только для админов сайта.
+
+Над скриптом работал: FoX страница ВК - vk.com/nskfox
+Над дизайном работал: Dan_Romanenkov страница ВК - vk.com/id22819551
